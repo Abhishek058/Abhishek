@@ -1,3 +1,9 @@
+import HomeComp from "@/components/HomeComp";
+
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div className="">
+      <HomeComp/>
+    </div>
+  );
 }
