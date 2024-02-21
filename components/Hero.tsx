@@ -43,7 +43,7 @@ export default function Hero() {
         </nav>
 
         <motion.div
-          initial={{ opacity: 0, y: 1000 }}
+          initial={{ opacity: 0, y: 500 }}
           animate={{ opacity: 1, y: 1 }}
           transition={{
             duration: 2,
