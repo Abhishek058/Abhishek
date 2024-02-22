@@ -1,47 +1,16 @@
-import Link from "next/link";
 import LanguageIcon from "@mui/icons-material/Language";
 import Loader from "./Loader";
 import { SouthEast } from "@mui/icons-material";
-import ParallexText from "./ParallexText";
+import ParallexText from "../OneTimeComponent/ParallexText";
 import { motion } from "framer-motion";
+import NavBar from "../OneTimeComponent/NavBar";
 
 export default function Hero() {
   return (
     <>
       <Loader />
-
-      <div
-        className="w-full min-h-screen bg-[#9b9d9e] bg-cover bg-center"
-        style={{
-          backgroundImage: "url(https://t.ly/Jn8s5)",
-        }}
-      >
-        <nav className="h-24 flex items-center ml-12 mr-12 justify-between">
-          <div className="text-md text-white hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
-            © Code by Abhishek
-          </div>
-          <div className="flex text-white gap-x-10">
-            <Link
-              href="/Work"
-              className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
-            >
-              Work
-            </Link>
-            <Link
-              href="/About"
-              className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
-            >
-              About
-            </Link>
-            <Link
-              href="/Contact"
-              className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
-            >
-              Contact
-            </Link>
-          </div>
-        </nav>
-
+      <div className="w-full min-h-screen bg-[#9b9d9e] bg-cover bg-center Hero">
+        <NavBar />
         <motion.div
           initial={{ opacity: 0, y: 500 }}
           animate={{ opacity: 1, y: 1 }}
@@ -67,7 +36,7 @@ export default function Hero() {
             </div>
             <div className="-translate-x-28">
               <h1 className=" -translate-y-12">
-                <SouthEast className="text-white text-4xl animate-pulse" />
+                <SouthEast className="text-white text-4xl animate-bounce" />
               </h1>
               <h1 className="text-white text-4xl leading-[50px]">
                 Designer &

@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./MagneticButton";
+import Nav from "../OneTimeComponent/MagneticButton";
 import "framer-motion";
 
 export default function AboutComp() {
@@ -18,9 +18,14 @@ export default function AboutComp() {
             positions me in a unique place in the web design world.
           </p>
           <div className="translate-y-16">
-            <Nav />
+            <Nav title="About" link="/About" styl="w-[200px] h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"/>
           </div>
         </div>
+      </div>
+      <div className="w-full gap-x-3 flex items-center">
+        <div className="h-[2px] bg-gray-300 w-1/4"></div>
+        <div className="w-[140px] text-gray-500">Recent Work</div>
+        <div className="h-[2px] bg-gray-300 w-full"></div>
       </div>
     </div>
   );

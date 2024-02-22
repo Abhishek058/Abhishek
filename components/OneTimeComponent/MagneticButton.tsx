@@ -6,7 +6,13 @@ import {
   useTransform,
 } from "framer-motion";
 
-export default function Nav() {
+interface NavProps {
+  title: string;
+  link: string;
+  styl: string;
+}
+
+export default function Nav({ title, link, styl }: NavProps) {
   const MotionLink = motion(Link);
 
   const mapRange = (
@@ -33,8 +39,8 @@ export default function Nav() {
     const relativeY = event.clientY - bounds.top;
     const xRange = mapRange(0, bounds.width, -1, 1)(relativeX);
     const yRange = mapRange(0, bounds.height, -1, 1)(relativeY);
-    x.set(xRange * 200);
-    y.set(yRange * 200);
+    x.set(xRange * 150);
+    y.set(yRange * 150);
   };
 
   const x = useMotionValue(0);
@@ -44,7 +50,7 @@ export default function Nav() {
 
   return (
     <motion.div
-      className="w-[200px] h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-700 cursor-pointer duration-300"
+      className={`${styl}`}
       onPointerMove={(event) => {
         const item = event.currentTarget;
         setTransform(item, event, x, y);
@@ -55,9 +61,12 @@ export default function Nav() {
       }}
       style={{ x, y }}
     >
-      <MotionLink href={"/hello"}>
-        <motion.span style={{ x: textX, y: textY }} className="z-10 relative text-2xl">
-          About
+      <MotionLink href={`${link}`}>
+        <motion.span
+          style={{ x: textX, y: textY }}
+          className="z-10 relative text-2xl"
+        >
+          {title}
         </motion.span>
       </MotionLink>
     </motion.div>
