@@ -7,7 +7,7 @@ export default function NavBar() {
       <div className="text-md text-white hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
         © Code by Abhishek
       </div>
-      <div className="flex text-white gap-x-10">
+      <div className=" text-white gap-x-10 hidden sm:flex">
         <Link
           href="/Work"
           className="hover:font-medium hover:scale-150 hover:text-lg duration-500"

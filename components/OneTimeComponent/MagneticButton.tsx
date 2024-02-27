@@ -64,7 +64,7 @@ export default function Nav({ title, link, styl }: NavProps) {
       <MotionLink href={`${link}`}>
         <motion.span
           style={{ x: textX, y: textY }}
-          className="z-10 relative text-2xl"
+          className="z-10 relative text-xl sm:text-2xl"
         >
           {title}
         </motion.span>

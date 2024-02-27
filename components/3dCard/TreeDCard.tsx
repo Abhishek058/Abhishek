@@ -8,6 +8,7 @@ interface ThreeDCardProps {
   vidUrl: string;
   projectName: string;
   tryLink: string;
+  githubLink: string;
 }
 
 export function ThreeDCard({
@@ -15,6 +16,7 @@ export function ThreeDCard({
   vidUrl,
   projectName,
   tryLink,
+  githubLink,
 }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var" pos={`${pos}`}>
@@ -29,14 +31,14 @@ export function ThreeDCard({
           <iframe
             width="1200"
             height="1000"
-            src="https://www.youtube.com/embed/m4O9gVw08Vk?si=t7tOTg4sDcyyMEXR&amp&autoplay=1&mute=1&controls=0&loop=1"
+            src="blob:https://www.geeksforgeeks.org/0fa603ea-fbea-4b2f-8531-23acedc43553"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
           ></iframe>
         </CardItem>
-        <div className="flex justify-between items-center mt-10 hover:scale-110 duration-500">
+        <div className="flex justify-around items-center mt-10 hover:scale-110 duration-500">
           <CardItem
             translateZ={20}
             as="button"
@@ -44,6 +46,15 @@ export function ThreeDCard({
           >
             <a href={`${tryLink}`} target="blank">
               Try now →
+            </a>
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as="button"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white border-2 hover:bg-white hover:text-black hover:scale-125"
+          >
+            <a href={`${githubLink}`} target="blank">
+              Github →
             </a>
           </CardItem>
         </div>

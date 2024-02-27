@@ -23,8 +23,8 @@ export default function Hero() {
             },
           }}
         >
-          <div className="flex justify-between items-center translate-y-40 h-56">
-            <div className="bg-[#1c1d20] h-28 w-64 rounded-r-full flex items-center justify-between">
+          <div className="flex justify-between items-center absolute translate-y-80 h-56 sm:relative sm:translate-y-40">
+            <div className="bg-[#1c1d20] h-28 w-64 rounded-r-full items-center justify-between hidden sm:flex">
               <div className="text-white translate-x-10 text-xl leading-5 tracking-wide">
                 Located
                 <br /> in
@@ -34,11 +34,11 @@ export default function Hero() {
                 <LanguageIcon className="h-14 w-14 text-white" />
               </div>
             </div>
-            <div className="-translate-x-28">
-              <h1 className=" -translate-y-12">
-                <SouthEast className="text-white text-4xl animate-bounce" />
+            <div className="translate-x-10 sm:-translate-x-28">
+              <h1 className=" -translate-y-3 sm:-translate-y-12">
+                <SouthEast className="text-white text-3xl sm:text-4xl animate-bounce" />
               </h1>
-              <h1 className="text-white text-4xl leading-[50px]">
+              <h1 className="text-white text-3xl sm:text-4xl leading-[40px] sm:leading-[50px]">
                 Designer &
                 <br />
                 Website Developer
