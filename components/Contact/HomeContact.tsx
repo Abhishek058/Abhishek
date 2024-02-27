@@ -2,6 +2,7 @@ import { SouthWest } from "@mui/icons-material";
 import React from "react";
 import Nav from "../OneTimeComponent/MagneticButton";
 import Footer from "../OneTimeComponent/Footer";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -12,9 +13,11 @@ export default function Contact() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="flex items-center leading-6">
-                  <img
-                    src="https://shorturl.at/gzQ69"
-                    className="rounded-full  w-[80px] h-[80px]"
+                  <Image
+                    src="/mypic3.png"
+                    width={80}
+                    height={80}
+                    className="rounded-full"
                     alt=""
                   />
                   <p className="text-[80px] text-white ml-5"> Let’s work</p>
