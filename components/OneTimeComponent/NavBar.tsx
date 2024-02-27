@@ -1,27 +1,27 @@
 import React from "react";
 import Link from "next/link";
 
-export default function NavBar() {
+export default function NavBar({ font }: { font: string }) {
   return (
-    <nav className="h-24 flex items-center ml-12 mr-12 justify-between">
-      <div className="text-md text-white hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
+    <nav className={`h-24 flex items-center ml-12 mr-12 justify-between ${font}`}>
+      <div className="text-md hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
         © Code by Abhishek
       </div>
-      <div className=" text-white gap-x-10 hidden sm:flex">
+      <div className="gap-x-10 hidden sm:flex">
         <Link
-          href="/Work"
+          href="/work"
           className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
         >
           Work
         </Link>
         <Link
-          href="/About"
+          href="/about"
           className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
         >
           About
         </Link>
         <Link
-          href="/Contact"
+          href="/contact"
           className="hover:font-medium hover:scale-150 hover:text-lg duration-500"
         >
           Contact

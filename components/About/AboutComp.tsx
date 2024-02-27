@@ -18,7 +18,7 @@ export default function AboutComp() {
             positions me in a unique place in the web design world.
           </p>
           <div className="translate-y-2 sm:translate-y-20">
-            <Nav title="About" link="/About" styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"/>
+            <Nav title="About" link="/about" styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"/>
           </div>
         </div>
       </div>

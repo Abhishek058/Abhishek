@@ -10,7 +10,7 @@ export default function Hero() {
     <>
       <Loader />
       <div className="w-full min-h-screen bg-[#9b9d9e] bg-cover bg-center Hero">
-        <NavBar />
+        <NavBar font="text-white"/>
         <motion.div
           initial={{ opacity: 0, y: 500 }}
           animate={{ opacity: 1, y: 1 }}
