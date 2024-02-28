@@ -35,19 +35,19 @@ export default function Contact() {
               <Nav
                 title="Get in touch"
                 styl="w-[160px] h-[160px] sm:w-[180px] sm:h-[180px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
-                link="/Contact"
+                link="/contact"
               />
             </div>
             <div className="flex flex-col items-center sm:flex-row sm:gap-x-16 gap-y-8 mt-8 sm:mt-0">
               <Nav
                 title="abhihek9728@gmail.com"
                 styl="w-[350px] h-[60px] border-[1px] border-gray-500 rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
-                link="/Contact"
+                link="/contact"
               />
               <Nav
                 title="+91 9728230481"
                 styl="w-[300px] h-[60px] border-[1px] border-gray-500 rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
-                link="/Contact"
+                link="/contact"
               />
             </div>
           </div>
