@@ -74,6 +74,13 @@ export default function page() {
           trylink="https://google-docs-clone.vercel.app/"
           githublink="https://github.com/Abhishek058/Google_Docs_Clone"
         />
+        <ProjectCard
+          title="Dream Destiny"
+          description="This application is designed to help travelers plan their trips efficiently. Whether you're going on a weekend getaway or a long vacation, the Travel Planner App is here to assist you in organizing your itinerary, finding places of interest, and keeping all your travel information in one place. 🌍"
+          image="https://lh3.googleusercontent.com/pw/AP1GczM9IeJWVlbIf6WyVIdgYe-QCKGPmoLAMdxVldsNudzE4pf48Yw1hAg0eGb3AZ-9qzL5GOQXMYkS08vdcixTAYQ-Tvy8R5QB00CwceWE0_rHf-v0KVbpmWMP8f3fNVe31_3g6ZuGuT6aArUF9w4GmxAMDWQQg24VCIdylapTlF-6ag7u_gDsci-mcwgiP1gfAGBJ_LVi3NI-bf2dpY1tJTkkhBGjTAlk2KZw-r30OjzbRdygfdicq2MGCX8hvskxQT2PtrXKyQuQvCqPxhM_cqR8lW9kG0COVeOuBielu-MOcLKd9gL_63cJLA8_YbN3yeIIzUhlzFD8ZiON5nSBRfPx_g0Ad1H9eZJ0PD4haN62cf0gYR2k2ijWne6UROWXUGmIfGz_bsVdImNi-npm3i87-sZxi3iHNtRi9QF40T0DqFUt6YK62OFOywEQLql1d6S3SjU6upW1h_px8hD8xDUeUBpXeayzknlZyxRv3PXR0Lg4fklXRKcqUbdMi2y4kBGSrokibpaNeo9B1FUxrn3Xb_QbIDEPV7pHdqfMA0fDvwdPH3G8MgtjN5UNH_ldPTISh_NWzXqtEJ3E6JfgzTUOlN7c-O6jYVlYB1e1Vs4FNzyjbutRA8BPQ5vgKeLAW9l0aJwCrr3N7Oko-QCnKG8YyyMtsH4s8ReRh8s_3xqGu3_VhlpGGtGxT69rMmb_sW7pOucmdf8CY3ZpRSRhvFe14mD5WYkNdol9cAoD2JA259APLYl7j-o4VjbhdRCKl_kXP0Tb8_hyvwxT0zoI_d1Unw3AByB_Z5yIgD03hB5XpZsIlj-yvbtRPD4IgJpkt02FR2Z248WQNovDjzPqFC6lrwhz8Qdgijc5ZGSfWvRhC78505AIXzfIvjzpllKjBISEW0DufRM9-uOqn8W3gR8mnUqiO_fFyId0zp_fZd5KHpeTYVRcOIl5IFKwIDSbRBoUM5POMRy_gtDpecscChApcn-sfK4M2Lpcfrr9tbQSLwj_9trllBf_xzqfPrgJzt3z=w2816-h1572-s-no-gm?authuser=3"
+          trylink="https://github.com/Abhishek058/Travel_Planner_DreamDestiny"
+          githublink="https://github.com/Abhishek058/Travel_Planner_DreamDestiny"
+        />
       </div>
       <HomeContact />
     </div>
