@@ -1,4 +1,3 @@
-import BackgroundBeams from "@/components/OneTimeComponent/BackgroundBeams";
 import NavBar from "@/components/OneTimeComponent/NavBar";
 import { GitHub, LinkedIn, SouthWest, Twitter } from "@mui/icons-material";
 import Image from "next/image";
@@ -6,7 +5,6 @@ import React from "react";
 
 export default function page() {
   return (
-    <>
       <div className="bg-[#1c1d20]">
         <NavBar font="text-white mb-28" />
         <div className="flex flex-col items-center justify-center">
@@ -55,7 +53,7 @@ export default function page() {
                   <input
                     placeholder="john@doe.com *"
                     name="Email"
-                    type="text"
+                    type="email"
                     className="outline-none border-none bg-transparent ml-10 text-lg text-white"
                   />
                 </div>
@@ -87,7 +85,7 @@ export default function page() {
                 src="/mypic3.png"
                 width={90}
                 height={90}
-                className="rounded-full hidden sm:flex mr-4"
+                className="rounded-full hidden sm:flex -translate-y-10"
                 alt=""
               />
 
@@ -135,7 +133,5 @@ export default function page() {
           </div>
         </div>
       </div>
-      <BackgroundBeams />
-    </>
   );
 }

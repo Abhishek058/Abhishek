@@ -28,15 +28,12 @@ export function ThreeDCard({
           {projectName}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <iframe
+          <img
             width="1200"
             height="1000"
-            src="blob:https://www.geeksforgeeks.org/0fa603ea-fbea-4b2f-8531-23acedc43553"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
+            src="https://shorturl.at/ruTW6"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-          ></iframe>
+          />
         </CardItem>
         <div className="flex justify-around items-center mt-10 hover:scale-110 duration-500">
           <CardItem

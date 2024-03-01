@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function NavBar({ font }: { font: string }) {
   return (
     <nav className={`h-24 flex items-center ml-12 mr-12 justify-between ${font}`}>
-      <div className="text-md hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
+      <Link href="/" className="text-md hover:font-medium hover:scale-120 hover:text-lg duration-500 cursor-pointer">
         © Code by Abhishek
-      </div>
+      </Link>
       <div className="gap-x-10 hidden sm:flex">
         <Link
           href="/work"
