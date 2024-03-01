@@ -32,17 +32,25 @@ export default function page() {
           <Nav
             title="Work"
             link="/work"
-            styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
+            styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
           />
+
+          <div className="w-1/2 flex flex-col items-center justify-center">
+            <h1 className="text-2xl md:text-4xl lg:text-6xl text-center">
+              Help you create your project stand out
+            </h1>
+            <p className="mt-10 text-4xl font-bold animate-bounce">↓</p>
+          </div>
+
           <Nav
             title="Contact"
             link="/contact"
-            styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
+            styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
           />
         </div>
         <div className="flex flex-col items-center justify-center p-4">
           <h1 className="text-5xl font-medium">I can help you with...</h1>
-          <div className="flex flex-col sm:flex-row py-32 items-center justify-center gap-y-12 gap-x-14 sm:w-[90%]">
+          <div className="flex flex-col lg:flex-row py-32 items-center justify-center gap-y-12 gap-x-14 sm:w-[90%]">
             <div className="flex flex-col">
               <div className="text-gray-500 font-medium mb-4">01</div>
               <div className="w-full sm:w-[300px] h-[1.5px] bg-gray-500 mb-4"></div>

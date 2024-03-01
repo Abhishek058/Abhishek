@@ -117,7 +117,7 @@ export default function Projects() {
         <div className="w-1/3 border-2"></div>
         <Nav
           title="More Projects"
-          link="/Work"
+          link="/work"
           styl="sm:w-[250px] sm:h-[80px] w-[250px] h-[50px] text-black border-4 rounded-full flex items-center justify-center hover:bg-black hover:text-white cursor-pointer duration-300"
         />
         <div className="w-1/3 border-2"></div>
