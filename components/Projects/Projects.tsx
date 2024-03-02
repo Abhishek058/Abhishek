@@ -11,7 +11,7 @@ export default function Projects() {
           pos="translate-x-18"
           projectName="Gourmet Enclave"
           tryLink="https://gourmetenclave.netlify.app/"
-          vidUrl="https://www.youtube.com/embed/Ae1Gk03S0Mg?si=uZX8ZN6-RTZCf5Aj"
+          vidUrl="/GourmetEnclave.gif"
           githubLink="https://github.com/Abhishek058/Gourmet_Enclave"
         />
         <div className="mt-6 p-2 sm:w-1/2">
@@ -73,7 +73,7 @@ export default function Projects() {
           pos="-translate-x-18"
           projectName="U-Mess"
           tryLink="https://abhishek-u-mess.netlify.app/"
-          vidUrl="https://www.youtube.com/embed/m4O9gVw08Vk&autoplay=1"
+          vidUrl="/U-Mess.gif"
           githubLink="https://github.com/Abhishek058/U_MESS"
         />
       </div>
@@ -82,7 +82,7 @@ export default function Projects() {
           pos="-translate-x-18"
           projectName="Google Docs"
           tryLink="https://google-docs-clone.vercel.app/"
-          vidUrl="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+          vidUrl="/Google Docs.gif"
           githubLink="https://github.com/Abhishek058/Google_Docs_Clone"
         />
 

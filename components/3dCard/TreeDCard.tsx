@@ -2,6 +2,7 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./CardContainer";
+import Image from "next/image";
 
 interface ThreeDCardProps {
   pos: string;
@@ -28,11 +29,12 @@ export function ThreeDCard({
           {projectName}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <img
-            width="1200"
-            height="1000"
-            src="https://shorturl.at/ruTW6"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+          <Image
+            alt="Project Image"
+            width={1200}
+            height={1100}
+            src={`${vidUrl}`}
+            className="w-full object-cover rounded-xl group-hover/card:shadow-xl"
           />
         </CardItem>
         <div className="flex justify-around items-center mt-10 hover:scale-110 duration-500">
