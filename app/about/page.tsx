@@ -45,9 +45,20 @@ export default function page() {
           <Nav
             title="Contact"
             link="/contact"
-            styl="mt-6 mb-6 w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
+            styl="mt-6 w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] bg-black rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
           />
         </div>
+        <div className="w-full flex items-center justify-center mb-8">
+          <a
+            className="text-lg md:text-xl font-medium bg-black text-white px-6 md:px-8 py-2 md:py-3 rounded-lg hover:rounded-full hover:bg-gray-800"
+            href="https://docs.google.com/document/d/17Ikr9MsDhkoPwCjqx8C1lsdAaBQQP0SSWZP7y8CikJk/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Resume
+          </a>
+        </div>
+
         <div className="flex flex-col items-center justify-center p-4">
           <h1 className="text-5xl font-medium">I can help you with...</h1>
           <div className="flex flex-col lg:flex-row py-32 items-center justify-center gap-y-12 gap-x-14 sm:w-[90%]">
