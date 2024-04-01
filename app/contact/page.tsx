@@ -147,8 +147,8 @@ export default function page() {
                 <h1 className="text-gray-600 text-xs font-semibold">
                   CONTACT DETAILS
                 </h1>
-                <h1 className="text-white">abhishek9728@gmail.com</h1>
-                <h1 className="text-white">+91 9728230481</h1>
+                <h1 className="text-white">abhsk28@gmail.com</h1>
+                <h1 className="text-white">+91 97481</h1>
               </div>
               <div className="flex flex-col gap-y-2">
                 <h1 className="text-gray-600 text-xs font-semibold">ADDRESS</h1>
