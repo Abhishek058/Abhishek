@@ -40,12 +40,12 @@ export default function Contact() {
             </div>
             <div className="flex flex-col items-center sm:flex-row sm:gap-x-16 gap-y-8 mt-8 sm:mt-0">
               <Nav
-                title="abhihek9728@gmail.com"
+                title="abhhek3272@gmail.com"
                 styl="w-[350px] h-[60px] border-[1px] border-gray-500 rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
                 link="/contact"
               />
               <Nav
-                title="+91 9728230481"
+                title="+91 9723422481"
                 styl="w-[300px] h-[60px] border-[1px] border-gray-500 rounded-full text-white flex items-center justify-center hover:bg-blue-500 cursor-pointer duration-300"
                 link="/contact"
               />
